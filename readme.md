@@ -1,0 +1,1 @@
+Man-in-the-middle function was originally from https://github.com/olmps/web-sniffer
