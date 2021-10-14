@@ -1,0 +1,26 @@
+{
+  "name": "limeman",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node dist/index.js",
+    "publish": "tsc && npm publish"
+  },
+  "author": "limitMe",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^13.13.5",
+    "typescript": "^3.9.2"
+  },
+  "dependencies": {
+    "@types/koa": "^2.13.4",
+    "@types/pem": "^1.9.5",
+    "http-proxy": "^1.18.1",
+    "koa": "^2.13.3",
+    "pem": "^1.14.4",
+    "web-proxy-sniffer": "^1.1.0"
+  }
+}
